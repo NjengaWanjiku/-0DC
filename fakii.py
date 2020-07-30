@@ -1,0 +1,13 @@
+def func(expr, x):
+    return eval(expr)
+input_expr = input("f(x) = ")
+a = eval(input("Enter a = "))
+b = eval(input("Enter b = "))
+x0 = input("Please enter the value for tolerance:\n")
+tol = float(x0)
+x1 = input("Please enter the number of iterations:\n")
+iter = int(x1)
+x2 = input("Please enter your upper limit:\n")
+b = int(x2)
+x3 = input("Please enter your lower limit:\n")
+a = int(x3)

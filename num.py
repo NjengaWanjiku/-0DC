@@ -1,5 +1,6 @@
+def f(exp, x):
 
-#BISECTION METHOD#
+    return(exp)# allow use to enter any function
 
     # specify your bounds xl  and xu
 
@@ -9,17 +10,10 @@
 
 
 
-def bisection_method(): #a, b,iter, tol
-    expr= input("f(x)=")
-    a = int(input("Add a:"))
-    b = int(input("Add b:"))
-    iterations= int(input("Add number of iterations:"))
-    tol= float(input("Add tol:"))
-
-def f(x):
-    
-    return(expr)# allow use to enter any function
-
+def bisection_method():
+    exp= input("f(x)=")
+    a=(input("enter a:"))
+    b=(input("enter b:"))
 
     if f(a)*f(b) > 0:
 
@@ -51,6 +45,8 @@ def f(x):
 
 
 
-answer = bisection_method() #1, 4, tol=0.001,iter=4
+answer = bisection_method()
 
-print("answer:",round (answer,3))
+
+
+print("Answer:", round(answer, 3))
